@@ -197,6 +197,21 @@
     </tbody>
 </table>
 
+### Beaker
+
+<table>
+    <thead>
+        <tr>
+            <th><a href="https://beakerbrowser.com/">Beaker</a></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr height=170>
+            <td><a href="beaker"><img width=150 src="beaker/beaker_256x256.png" alt="Beaker browser logo"></a></td>
+        </tr>
+    </tbody>
+</table>
+
 ### BeZillaBrowser
 
 <table>

@@ -680,7 +680,7 @@
 <table>
     <thead>
         <tr>
-            <th><a href="https://en.wikipedia.org/wiki/Firefox#Versions">Firefox Beta</a> <a href="#note"><code>*</code></a></th>
+            <th><a href="https://en.wikipedia.org/wiki/Firefox#Versions">Firefox<br>Beta</a> <a href="#note"><code>*</code></a></th>
         </tr>
     </thead>
     <tbody>
@@ -1299,8 +1299,8 @@
 <table>
     <thead>
         <tr>
-            <th><a href="https://en.wikipedia.org/wiki/Opera_Mini">Opera Mini</a> <a href="#note"><code>*</code></a></th>
-            <th><a href="https://en.wikipedia.org/wiki/Opera_Mini">Opera Mini</a> <a href="#note"><code>*</code></a></th>
+            <th><a href="https://en.wikipedia.org/wiki/Opera_Mini">Opera<br>Mini</a> <a href="#note"><code>*</code></a></th>
+            <th><a href="https://en.wikipedia.org/wiki/Opera_Mini">Opera<br>Mini</a> <a href="#note"><code>*</code></a></th>
         </tr>
     </thead>
     <tbody>
@@ -1316,7 +1316,7 @@
 <table>
     <thead>
         <tr>
-            <th><a href="https://en.wikipedia.org/wiki/Opera_Mini">Opera Mini<br>Beta</a> <a href="#note"><code>*</code></a></th>
+            <th><a href="https://en.wikipedia.org/wiki/Opera_Mini">Opera<br>Mini Beta</a> <a href="#note"><code>*</code></a></th>
         </tr>
     </thead>
     <tbody>
@@ -1887,9 +1887,9 @@
 <table>
     <thead>
         <tr>
-            <th><a href="https://en.wikipedia.org/wiki/WebKit">WebKit Nightly<br>1-7</a></th>
-            <th><a href="https://en.wikipedia.org/wiki/WebKit">WebKit Nightly<br>8-9</a></th>
-            <th><a href="https://en.wikipedia.org/wiki/WebKit">WebKit Nightly<br>10-11</a></a></th>
+            <th><a href="https://en.wikipedia.org/wiki/WebKit">WebKit<br>Nightly<br>1-7</a></th>
+            <th><a href="https://en.wikipedia.org/wiki/WebKit">WebKit<br>Nightly<br>8-9</a></th>
+            <th><a href="https://en.wikipedia.org/wiki/WebKit">WebKit<br>Nightly<br>10-11</a></a></th>
         </tr>
     </thead>
     <tbody>

@@ -2773,7 +2773,7 @@
                 <a href="https://github.com/JRock007/Tob">Tob</a>
                 <a href="#note"><code>*</code></a>
             </th>
-        <tr>
+        </tr>
     </thead>
     <tbody>
         <tr height=170>

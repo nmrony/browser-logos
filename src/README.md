@@ -133,7 +133,7 @@
     </thead>
     <tbody>
         <tr height=170>
-            <td><a href="chrome"><img width=150 src="chrome/chrome_256x256.png" alt="Chrome browser logo"></a></td>
+            <td><a href="chrome"><img width=150 src="chrome/chrome.svg" alt="Chrome browser logo"></a></td>
             <td><a href="chrome-beta"><img width=150 src="chrome-beta/chrome-beta_256x256.png" alt="Chrome Beta browser logo"></a></td>
             <td><a href="chrome-dev"><img width=150 src="chrome-dev/chrome-dev_256x256.png" alt="Chrome Dev browser logo"></a></td>
             <td><a href="chrome-canary"><img width=150 src="chrome-canary/chrome-canary_256x256.png" alt="Chrome Canary browser logo"></a></td>

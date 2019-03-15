@@ -56,8 +56,6 @@ const createReadme = (data) => {
 
     const content =`# ${data.prettifiedName}
 
-## Logo
-
 <table>
     <tr height=300>
         <td>

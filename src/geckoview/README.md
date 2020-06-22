@@ -1,26 +1,27 @@
-# GeckoView
+GeckoView
+=========
 
+<!-- markdownlint-disable line-length no-inline-html -->
 <table>
     <tr height=240>
         <td>
-            <a href="https://github.com/alrra/browser-logos/tree/0a5548a8c45b5738de71eea6171f6117153bdffb/src/geckoview">
-                <img width=230 src="https://raw.githubusercontent.com/alrra/browser-logos/0a5548a8c45b5738de71eea6171f6117153bdffb/src/geckoview/geckoview_512x512.png" alt="GeckoView logo">
+            <a href="https://github.com/alrra/browser-logos/tree/896ab303b43decd25c518ea5dc0081e6974d344a/src/geckoview">
+                <img width=230 src="https://raw.githubusercontent.com/alrra/browser-logos/896ab303b43decd25c518ea5dc0081e6974d344a/src/geckoview/geckoview_512x512.png" alt="GeckoView logo">
             </a>
         </td>
     </tr>
 </table>
+<!-- markdownlint-enable line-length no-inline-html -->
 
-## How do I get this logo?
+How to get the logo
+-------------------
 
-You can either:
+Get it using:
 
-* Install it using [`npm`][npm]:
-
-  `npm install --save-dev @browser-logos/geckoview`
-
-* Use [`cdnjs`][cdnjs].
+* [`npm`][npm]: `npm install --save-dev @browser-logos/geckoview`
+* [`Yarn`][yarn]: `yarn add --dev @browser-logos/geckoview`
 
 <!-- Link labels: -->
 
-[cdnjs]: https://cdnjs.com/libraries/browser-logos
 [npm]: https://www.npmjs.com/
+[yarn]: https://yarnpkg.com/

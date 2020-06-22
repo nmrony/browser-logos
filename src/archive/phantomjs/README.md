@@ -1,26 +1,27 @@
-# PhantomJS
+PhantomJS
+=========
 
+<!-- markdownlint-disable line-length no-inline-html -->
 <table>
     <tr height=230>
         <td>
-            <a href="https://github.com/alrra/browser-logos/tree/1bc1be31e7584ee9cbe4dc9359960eff538ad54e/src/archive/phantomjs">
-                <img width=220 src="https://raw.githubusercontent.com/alrra/browser-logos/1bc1be31e7584ee9cbe4dc9359960eff538ad54e/src/archive/phantomjs/phantomjs.svg?sanitize=true" alt="PhantomJS browser logo">
+            <a href="https://github.com/alrra/browser-logos/tree/3c089908ccf8b3b939a9e1eea123303b0b9b0389/src/archive/phantomjs">
+                <img width=220 src="https://raw.githubusercontent.com/alrra/browser-logos/3c089908ccf8b3b939a9e1eea123303b0b9b0389/src/archive/phantomjs/phantomjs.svg?sanitize=true" alt="PhantomJS browser logo">
             </a>
         </td>
     </tr>
 </table>
+<!-- markdownlint-enable line-length no-inline-html -->
 
-## How do I get this logo?
+How to get the logo
+-------------------
 
-You can either:
+Get it using:
 
-* Install it using [`npm`][npm]:
-
-  `npm install --save-dev @browser-logos/phantomjs`
-
-* Use [`cdnjs`][cdnjs].
+* [`npm`][npm]: `npm install --save-dev @browser-logos/phantomjs`
+* [`Yarn`][yarn]: `yarn add --dev @browser-logos/phantomjs`
 
 <!-- Link labels: -->
 
-[cdnjs]: https://cdnjs.com/libraries/browser-logos
 [npm]: https://www.npmjs.com/
+[yarn]: https://yarnpkg.com/

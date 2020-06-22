@@ -1,5 +1,9 @@
-# Browser Logos [![Build Status](https://travis-ci.org/alrra/browser-logos.svg?branch=master)](https://travis-ci.org/alrra/browser-logos)
+<!-- markdown-link-check-disable -->
+Browser Logos [![Build Status][build icon]][build url]
+=============
+<!-- markdown-link-check-enable -->
 
+<!-- markdownlint-disable line-length no-inline-html -->
 <table>
     <tbody>
         <tr>
@@ -8,12 +12,13 @@
                     <img src="src/main-desktop-browser-logos.png" alt="Main desktop browsers">
                 </a>
                 <a href="https://raw.githubusercontent.com/alrra/browser-logos/master/src/main-mobile-browser-logos.png">
-                   <img src="src/main-mobile-browser-logos.png" alt="Main mobile browsers">
+                    <img src="src/main-mobile-browser-logos.png" alt="Main mobile browsers">
                 </a>
             </td>
         </tr>
     </tbody>
 </table>
+<!-- markdownlint-enable line-length no-inline-html -->
 
 You may want these for a presentation, a blog post or for the site
 featuring your brand new awesome lightbox script (please no!). All
@@ -21,11 +26,13 @@ logos are high resolution with transparent backgrounds.
 
 ---
 
-## Current browser logos
+Current browser logos
+---------------------
 
 For logos of browsers that are currently active, check the [`src/`][src
 readme] directory.
 
+<!-- markdownlint-disable line-length no-inline-html -->
 <table>
     <tbody>
         <tr height=160>
@@ -33,12 +40,15 @@ readme] directory.
         </tr>
     </tbody>
 </table>
+<!-- markdownlint-enable line-length no-inline-html -->
 
-## Old browser logos
+Old browser logos
+-----------------
 
 For older logos, or logos of browsers that are no longer active, check
 the [`src/archive/`][archive readme] directory.
 
+<!-- markdownlint-disable line-length no-inline-html -->
 <table>
     <tbody>
         <tr height=160>
@@ -46,15 +56,33 @@ the [`src/archive/`][archive readme] directory.
         </tr>
     </tbody>
 </table>
+<!-- markdownlint-enable line-length no-inline-html -->
 
 ---
 
-## Acknowledgements
+Getting the browser logos
+-------------------------
 
-[Browser Logos][repo] is only possible thanks to all the awesome
-[contributors][contributors]!
+There are a few options for getting the browser logos:
 
-## Contributing
+### 1) Get individual logos
+
+* Install using:
+
+  * [`npm`][npm]: `npm install --save-dev @browser-logos/`[`<logo>`][packages]
+  * [`Yarn`][yarn]: `yarn add --dev @browser-logos/`[`<logo>`][packages]
+
+### 2) Get all logos
+
+* Install using:
+
+  * [`npm`][npm]: `npm install alrra/browser-logos#65.0.0`
+  * [`Yarn`][yarn]: `yarn add browser-logos#65.0.0`
+
+* Download the [`zip` archive][archive].
+
+Contributing
+------------
 
 Anyone and everyone is welcome to contribute, but before you do, please
 take a moment to review the [guidelines](.github/CONTRIBUTING.md).
@@ -63,48 +91,38 @@ take a moment to review the [guidelines](.github/CONTRIBUTING.md).
 * [Feature requests](.github/CONTRIBUTING.md#features)
 * [Pull requests](.github/CONTRIBUTING.md#pull-requests)
 
-## Getting the browser logos
+Acknowledgements
+----------------
 
-There are a few options for getting the browser logos:
+[Browser Logos][repo] is only possible thanks to all the awesome
+[contributors][contributors]!
 
-#### 1) Get individual logos:
+Legal
+-----
 
-   * Install via [`npm`][npm]: `npm install --save-dev @browser-logos/`[`<logo>`][npm org].
-   * Use [`cdnjs`][cdnjs].
-
-#### 2) Get all logos:
-
-   * Use [`cdnjs`][cdnjs].
-   * Download the [`zip` archive][archive].
-   * Install via [`npm`][npm]: `npm install alrra/browser-logos#46.1.0`
-
-## Legal
-
-#### __All logos and trademarks are the property of their respective owners!__
-
-If you represent the entity that has the rights over a logo and
-you want, for whatever reason, that logo removed from this project,
-[open an issue][issues] requesting its takedown and we will remove
-it as soon as possible.
+All logos and trademarks are the property of their respective owners.
 
 Everything else is available under the [MIT license][license].
 
-## Project origin and history
+Project origin and history
+--------------------------
 
-Read [Paul Irish][github paul]'s [*"High-res Browser Logos"*][article
+Read [Paul Irish][github paul]'s [_"High-res Browser Logos"_][article
 paul] blog post.
 
 <!-- Link labels: -->
 
 [archive readme]: src/archive/README.md#readme
-[archive]: https://github.com/alrra/browser-logos/archive/46.1.0.zip
+[archive]: https://github.com/alrra/browser-logos/archive/65.0.0.zip
 [article paul]: https://www.paulirish.com/2010/high-res-browser-icons/
-[cdnjs]: https://cdnjs.com/libraries/browser-logos
+[build icon]: https://github.com/alrra/browser-logos/workflows/test/badge.svg
+[build url]: https://github.com/alrra/browser-logos/actions
 [contributors]: https://github.com/alrra/browser-logos/graphs/contributors
 [github paul]: https://github.com/paulirish/
 [issues]: https://github.com/alrra/browser-logos/issues/new
 [license]: LICENSE.txt
-[npm org]: https://www.npmjs.com/org/browser-logos
 [npm]: https://www.npmjs.com/
+[packages]: https://www.npmjs.com/org/browser-logos
 [repo]: https://github.com/alrra/browser-logos/
 [src readme]: src/README.md#readme
+[yarn]: https://yarnpkg.com/

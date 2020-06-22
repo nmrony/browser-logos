@@ -1,26 +1,27 @@
-# Firefox
+Firefox
+=======
 
+<!-- markdownlint-disable line-length no-inline-html -->
 <table>
     <tr height=230>
         <td>
-            <a href="https://github.com/alrra/browser-logos/tree/c403de39da41a6ec6cf5bfed3a36acd0bf361230/src/firefox">
-                <img width=220 src="https://raw.githubusercontent.com/alrra/browser-logos/c403de39da41a6ec6cf5bfed3a36acd0bf361230/src/firefox/firefox.svg?sanitize=true" alt="Firefox browser logo">
+            <a href="https://github.com/alrra/browser-logos/tree/896ab303b43decd25c518ea5dc0081e6974d344a/src/firefox">
+                <img width=220 src="https://raw.githubusercontent.com/alrra/browser-logos/896ab303b43decd25c518ea5dc0081e6974d344a/src/firefox/firefox.svg?sanitize=true" alt="Firefox browser logo">
             </a>
         </td>
     </tr>
 </table>
+<!-- markdownlint-enable line-length no-inline-html -->
 
-## How do I get this logo?
+How to get the logo
+-------------------
 
-You can either:
+Get it using:
 
-* Install it using [`npm`][npm]:
-
-  `npm install --save-dev @browser-logos/firefox`
-
-* Use [`cdnjs`][cdnjs].
+* [`npm`][npm]: `npm install --save-dev @browser-logos/firefox`
+* [`Yarn`][yarn]: `yarn add --dev @browser-logos/firefox`
 
 <!-- Link labels: -->
 
-[cdnjs]: https://cdnjs.com/libraries/browser-logos
 [npm]: https://www.npmjs.com/
+[yarn]: https://yarnpkg.com/

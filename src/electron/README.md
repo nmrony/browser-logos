@@ -1,26 +1,27 @@
-# Electron
+Electron
+========
 
+<!-- markdownlint-disable line-length no-inline-html -->
 <table>
     <tr height=230>
         <td>
-            <a href="https://github.com/alrra/browser-logos/tree/82546a2e061024933f0d1a20123bbde8dbefe62b/src/electron">
-                <img width=220 src="https://raw.githubusercontent.com/alrra/browser-logos/82546a2e061024933f0d1a20123bbde8dbefe62b/src/electron/electron.svg?sanitize=true" alt="Electron browser logo">
+            <a href="https://github.com/alrra/browser-logos/tree/7942cc53f44d8171b705f65fed83944032134b54/src/electron">
+                <img width=220 src="https://raw.githubusercontent.com/alrra/browser-logos/7942cc53f44d8171b705f65fed83944032134b54/src/electron/electron.svg?sanitize=true" alt="Electron browser logo">
             </a>
         </td>
     </tr>
 </table>
+<!-- markdownlint-enable line-length no-inline-html -->
 
-## How do I get this logo?
+How to get the logo
+-------------------
 
-You can either:
+Get it using:
 
-* Install it using [`npm`][npm]:
-
-  `npm install --save-dev @browser-logos/electron`
-
-* Use [`cdnjs`][cdnjs].
+* [`npm`][npm]: `npm install --save-dev @browser-logos/electron`
+* [`Yarn`][yarn]: `yarn add --dev @browser-logos/electron`
 
 <!-- Link labels: -->
 
-[cdnjs]: https://cdnjs.com/libraries/browser-logos
 [npm]: https://www.npmjs.com/
+[yarn]: https://yarnpkg.com/

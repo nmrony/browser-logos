@@ -1,26 +1,27 @@
-# jsdom
+jsdom
+=====
 
+<!-- markdownlint-disable line-length no-inline-html -->
 <table>
     <tr height=230>
         <td>
-            <a href="https://github.com/alrra/browser-logos/tree/3bae782ad2adabd4d13f9d8a65a9bc2316de3c71/src/jsdom">
-                <img width=220 src="https://raw.githubusercontent.com/alrra/browser-logos/3bae782ad2adabd4d13f9d8a65a9bc2316de3c71/src/jsdom/jsdom.svg?sanitize=true" alt="jsdom browser logo">
+            <a href="https://github.com/alrra/browser-logos/tree/896ab303b43decd25c518ea5dc0081e6974d344a/src/jsdom">
+                <img width=220 src="https://raw.githubusercontent.com/alrra/browser-logos/896ab303b43decd25c518ea5dc0081e6974d344a/src/jsdom/jsdom.svg?sanitize=true" alt="jsdom browser logo">
             </a>
         </td>
     </tr>
 </table>
+<!-- markdownlint-enable line-length no-inline-html -->
 
-## How do I get this logo?
+How to get the logo
+-------------------
 
-You can either:
+Get it using:
 
-* Install it using [`npm`][npm]:
-
-  `npm install --save-dev @browser-logos/jsdom`
-
-* Use [`cdnjs`][cdnjs].
+* [`npm`][npm]: `npm install --save-dev @browser-logos/jsdom`
+* [`Yarn`][yarn]: `yarn add --dev @browser-logos/jsdom`
 
 <!-- Link labels: -->
 
-[cdnjs]: https://cdnjs.com/libraries/browser-logos
 [npm]: https://www.npmjs.com/
+[yarn]: https://yarnpkg.com/

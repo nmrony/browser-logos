@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const os = require('os');
 
 const Listr = require('listr');
 const listrInput = require('listr-input');
@@ -110,7 +111,7 @@ const prettyPrintCommit = async (commit) => {
 
     // Handle special case, transform something such as:
     //
-    //   🚀 browser-name - v1.0.0 [skip ci]
+    //   🚀 browser-name - v1.0.0
     //
     // to
     //
@@ -184,7 +185,9 @@ const generateChangelogSection = async (title, tags, commits) => {
 };
 
 const getChangelogContent = (ctx) => {
-    return `## ${ctx.newPackageVersion} (${getDate()})\n\n${ctx.packageReleaseNotes}\n`;
+    const releaseTitle = `${ctx.newPackageVersion} (${getDate()})`;
+
+    return `${releaseTitle}\n${'-'.repeat(releaseTitle.length)}\n\n${ctx.packageReleaseNotes}`;
 };
 
 const getChangelogData = async (commits = [], isPackage = true) => {
@@ -253,26 +256,42 @@ const getReleaseData = async (ctx) => {
 const getReleaseNotes = (changelogFilePath) => {
 
     // The change log is structured as follows:
+
+    // <!-- markdownlint-disable line-length -->    ┐
+    //                                              │
+    // Changelog                                    │
+    // =========                                    │ 8 lines (1)
+    //                                              │
+    // <version_number> (<date>)                    │
+    // -------------------------                    │
+    //                                              ┘
+    // <logs>
     //
-    // ## <version_number> (<date>)
-    // <empty_line>
-    // <version_log> <= this is what we need to extract
-    // <empty_line>
-    // <empty_line>
-    // ## <version_number> (<date>)
-    // <empty_line>
-    // <version_log>
+    // <version_number> (<date>)        (2)
+    // -------------------------
+    //
+    // <logs>
+    //
     // ...
 
+    let notes = '';
+    const versionRegex = /^(\d\.?){3}/;
+    const changelogLines = (shell.cat(changelogFilePath).stdout).split(os.EOL);
+    const lines = changelogLines.slice(8, changelogLines.length); // (1)
 
-    const eol = '\\r?\\n';
-    const regex = new RegExp(`#.*${eol}${eol}([\\s\\S]*?)${eol}${eol}${eol}`);
+    for (let line of lines) {
+        if (line.match(versionRegex)) { // (2)
+            break;
+        }
 
-    return regex.exec(shell.cat(changelogFilePath))[1];
+        notes += `${line}\n`;
+    }
+
+    return notes;
 };
 
 const gitCommitChanges = async (ctx) => {
-    await exec(`git add . && git commit -m "🚀 ${ctx.isPackage ? `${ctx.packageName} - ` : ''}v${ctx.newPackageVersion} [skip ci]"`);
+    await exec(`git add . && git commit -m "🚀 ${ctx.isPackage ? `${ctx.packageName} - ` : ''}v${ctx.newPackageVersion}"`);
 };
 
 const gitDeleteTag = async (tag) => {
@@ -366,15 +385,30 @@ const updateFile = (filePath, content) => {
 const updateReadme = async (ctx) => {
     const lastCommitSha = (await exec(`git log -n 1 --pretty=format:'%H' ${ctx.packagePath}`)).stdout;
 
-    shell.sed('-i', '[0-9a-f]{40}', lastCommitSha, `${ctx.packagePath}/README.md`);
+    if (ctx.packagePath !== '.') {
+        shell.sed('-i', '[0-9a-f]{40}', lastCommitSha, `${ctx.packagePath}/README.md`);
+    } else {
+        shell.sed('-i', '[0-9]+\.[0-9]+\.[0-9]+', `${ctx.newPackageVersion}` , `${ctx.packagePath}/README.md`);
+        console.log(`${ctx.newPackageVersion}, ${ctx.packagePath}/README.md`);
+    }
 };
 
 const updateChangelog = (ctx) => {
+    const changelogHeader = '<!-- markdownlint-disable line-length -->\n\nChangelog\n=========\n\n';
+
     if (!ctx.isUnpublishedPackage) {
-        updateFile(ctx.changelogFilePath, `${getChangelogContent(ctx)}${shell.cat(ctx.changelogFilePath)}`);
+        const changelogLines = (shell.cat(ctx.changelogFilePath).stdout).split(os.EOL);
+
+        updateFile(
+            ctx.changelogFilePath,
+            `${changelogHeader}${getChangelogContent(ctx)}${(changelogLines.slice(5, changelogLines.length)).join(os.EOL)}`
+        );
     } else {
         ctx.packageReleaseNotes = '✨';
-        updateFile(ctx.changelogFilePath, getChangelogContent(ctx));
+        updateFile(
+            ctx.changelogFilePath,
+            `${changelogHeader}${getChangelogContent(ctx)}\n`
+        );
     }
 };
 

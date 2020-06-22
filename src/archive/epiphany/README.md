@@ -1,26 +1,27 @@
-# Epiphany
+Epiphany
+========
 
+<!-- markdownlint-disable line-length no-inline-html -->
 <table>
     <tr height=230>
         <td>
-            <a href="https://github.com/alrra/browser-logos/tree/9a9cc9de8a85a4f53b0018f05f63f16dc5348bb1/src/archive/epiphany">
-                <img width=220 src="https://raw.githubusercontent.com/alrra/browser-logos/9a9cc9de8a85a4f53b0018f05f63f16dc5348bb1/src/archive/epiphany/epiphany.svg?sanitize=true" alt="Epiphany browser logo">
+            <a href="https://github.com/alrra/browser-logos/tree/896ab303b43decd25c518ea5dc0081e6974d344a/src/archive/epiphany">
+                <img width=220 src="https://raw.githubusercontent.com/alrra/browser-logos/896ab303b43decd25c518ea5dc0081e6974d344a/src/archive/epiphany/epiphany.svg?sanitize=true" alt="Epiphany browser logo">
             </a>
         </td>
     </tr>
 </table>
+<!-- markdownlint-enable line-length no-inline-html -->
 
-## How do I get this logo?
+How to get the logo
+-------------------
 
-You can either:
+Get it using:
 
-* Install it using [`npm`][npm]:
-
-  `npm install --save-dev @browser-logos/epiphany`
-
-* Use [`cdnjs`][cdnjs].
+* [`npm`][npm]: `npm install --save-dev @browser-logos/epiphany`
+* [`Yarn`][yarn]: `yarn add --dev @browser-logos/epiphany`
 
 <!-- Link labels: -->
 
-[cdnjs]: https://cdnjs.com/libraries/browser-logos
 [npm]: https://www.npmjs.com/
+[yarn]: https://yarnpkg.com/

@@ -1,26 +1,27 @@
-# V8 Ignition
+V8 Ignition
+===========
 
+<!-- markdownlint-disable line-length no-inline-html -->
 <table>
     <tr height=230>
         <td>
-            <a href="https://github.com/alrra/browser-logos/tree/2f2856da7c13bc971c32afd8ddc739e99b64ccab/src/v8-ignition">
-                <img width=220 src="https://raw.githubusercontent.com/alrra/browser-logos/2f2856da7c13bc971c32afd8ddc739e99b64ccab/src/v8-ignition/v8-ignition.svg?sanitize=true" alt="V8 Ignition browser logo">
+            <a href="https://github.com/alrra/browser-logos/tree/aed7cd6660db8a12af299ae9c99f9d6a77cfe468/src/v8-ignition">
+                <img width=220 src="https://raw.githubusercontent.com/alrra/browser-logos/aed7cd6660db8a12af299ae9c99f9d6a77cfe468/src/v8-ignition/v8-ignition.svg?sanitize=true" alt="V8 Ignition browser logo">
             </a>
         </td>
     </tr>
 </table>
+<!-- markdownlint-enable line-length no-inline-html -->
 
-## How do I get this logo?
+How to get the logo
+-------------------
 
-You can either:
+Get it using:
 
-* Install it using [`npm`][npm]:
-
-  `npm install --save-dev @browser-logos/v8-ignition`
-
-* Use [`cdnjs`][cdnjs].
+* [`npm`][npm]: `npm install --save-dev @browser-logos/v8-ignition`
+* [`Yarn`][yarn]: `yarn add --dev @browser-logos/v8-ignition`
 
 <!-- Link labels: -->
 
-[cdnjs]: https://cdnjs.com/libraries/browser-logos
 [npm]: https://www.npmjs.com/
+[yarn]: https://yarnpkg.com/

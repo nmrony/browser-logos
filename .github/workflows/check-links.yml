@@ -1,0 +1,31 @@
+# For more information about the configurations used
+# in this file, please see the GitHub actions documentation.
+#
+# https://help.github.com/en/github/automating-your-workflow-with-github-actions/
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v1
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check links
+        run: npm run check-links
+
+name: Check links
+
+on:
+  schedule:
+    - cron: "0 0 * * SAT"

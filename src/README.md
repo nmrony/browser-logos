@@ -1,25 +1,57 @@
-### Android
+<!-- markdownlint-disable line-length no-inline-html -->
+
+Current browser logos
+=====================
+
+Android
+-------
 
 <table>
     <thead>
         <tr>
             <th>
-                <a href="https://play.google.com/store/apps/details?id=com.google.android.webview">Android<br>WebView<br>Beta</a>
+                <a href="https://play.google.com/store/apps/details?id=com.google.android.webview">Android<br>WebView</a>
+            </th>
+            <th>
+                <a href="https://play.google.com/store/apps/details?id=com.google.android.webview.beta">Android<br>WebView<br>Beta</a>
+            </th>
+            <th>
+                <a href="https://play.google.com/store/apps/details?id=com.google.android.webview.dev">Android<br>WebView<br>Dev</a>
+            </th>
+            <th>
+                <a href="https://play.google.com/store/apps/details?id=com.google.android.webview.canary">Android<br>WebView<br>Canary</a>
             </th>
         </tr>
     </thead>
     <tbody>
         <tr height=170>
             <td>
+                <a href="android-webview">
+                    <img width=150 src="android-webview/android-webview_256x256.png" alt="Android WebView logo">
+                </a>
+            </td>
+            <td>
                 <a href="android-webview-beta">
                     <img width=150 src="android-webview-beta/android-webview-beta_256x256.png" alt="Android WebView Beta logo">
                 </a>
             </td>
+            <td>
+                <a href="android-webview-dev">
+                    <img width=150 src="android-webview-dev/android-webview-dev_256x256.png" alt="Android WebView Dev logo">
+                </a>
+            </td>
+            <td>
+                <a href="android-webview-canary">
+                    <img width=150 src="android-webview-canary/android-webview-canary_256x256.png" alt="Android WebView Canary logo">
+                </a>
+            </td>
+        </tr>
         </tr>
     </tbody>
 </table>
 
-### Avant
+Avant
+-----
 
 <table>
     <thead>
@@ -40,7 +72,8 @@
     </tbody>
 </table>
 
-### Basilisk
+Basilisk
+--------
 
 <table>
     <thead>
@@ -61,7 +94,8 @@
     </tbody>
 </table>
 
-### Brave
+Brave
+-----
 
 <table>
     <thead>
@@ -106,7 +140,8 @@
     </tbody>
 </table>
 
-### browsh
+browsh
+------
 
 <table>
     <thead>
@@ -127,7 +162,8 @@
     </tbody>
 </table>
 
-### Chrome
+Chrome
+------
 
 <table>
     <thead>
@@ -172,7 +208,8 @@
     </tbody>
 </table>
 
-#### Chrome DevTools
+Chrome DevTools
+---------------
 
 <table>
     <thead>
@@ -193,7 +230,8 @@
     </tbody>
 </table>
 
-### Chromium
+Chromium
+--------
 
 <table>
     <thead>
@@ -214,7 +252,8 @@
     </tbody>
 </table>
 
-### Cốc Cốc
+Cốc Cốc
+-------
 
 <table>
     <thead>
@@ -235,7 +274,8 @@
     </tbody>
 </table>
 
-### Dolphin
+Dolphin
+-------
 
 <table>
     <thead>
@@ -256,16 +296,14 @@
     </tbody>
 </table>
 
-### Edge
+Edge
+----
 
 <table>
     <thead>
         <tr>
             <th>
                 <a href="https://www.microsoft.com/en-us/windows/microsoft-edge">Edge</a>
-            </th>
-            <th>
-                <a href="https://www.microsoft.com/en-us/windows/microsoft-edge">Edge<br>Tile</a>
             </th>
             <th>
                 <a href="https://www.microsoftedgeinsider.com/en-us/download/">Edge<br>Beta</a>
@@ -283,11 +321,6 @@
             <td>
                 <a href="edge">
                     <img width=150 src="edge/edge_256x256.png" alt="Microsoft Edge browser logo">
-                </a>
-            </td>
-            <td>
-                <a href="edge-tile">
-                    <img width=150 src="edge-tile/edge-tile_256x256.png" alt="Microsoft Edge tile browser logo">
                 </a>
             </td>
             <td>
@@ -309,7 +342,8 @@
     </tbody>
 </table>
 
-### Electron
+Electron
+--------
 
 <table>
     <thead>
@@ -330,7 +364,8 @@
     </tbody>
 </table>
 
-### Epic
+Epic
+----
 
 <table>
     <thead>
@@ -351,7 +386,8 @@
     </tbody>
 </table>
 
-### Falkon
+Falkon
+------
 
 <table>
     <thead>
@@ -372,7 +408,8 @@
     </tbody>
 </table>
 
-### Firefox
+Firefox
+-------
 
 <table>
     <thead>
@@ -381,16 +418,16 @@
                 <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>
             </th>
             <th>
+                <a href="https://www.mozilla.org/en-US/firefox/channel/desktop/#beta">Firefox<br>Beta</a>
+            </th>
+            <th>
                 <a href="https://play.google.com/store/apps/details?id=org.mozilla.rocket">Firefox<br>Lite</a>
             </th>
             <th>
-                <a href="https://www.mozilla.org/en-US/firefox/channel/#beta">Firefox<br>Beta</a>
+                <a href="https://www.mozilla.org/en-US/firefox/channel/#developer">Firefox<br>Developer<br>Edition</a>
             </th>
             <th>
-                <a href="https://www.mozilla.org/en-US/firefox/channel/#developer">Firefox<br>Developer Edition</a>
-            </th>
-            <th>
-                <a href="https://nightly.mozilla.org/">Firefox<br>Nightly</a>
+                <a href="https://www.mozilla.org/en-US/firefox/channel/desktop/#nightly">Firefox<br>Nightly</a>
             </th>
         </tr>
     </thead>
@@ -402,13 +439,13 @@
                 </a>
             </td>
             <td>
-                <a href="firefox-lite">
-                   <img width=150 src="firefox-lite/firefox-lite_256x256.png" alt="Firefox Lite browser logo">
+                <a href="firefox-beta">
+                    <img width=150 src="firefox-beta/firefox-beta_256x256.png" alt="Firefox Beta browser logo">
                 </a>
             </td>
             <td>
-                <a href="firefox-beta">
-                    <img width=150 src="firefox-beta/firefox-beta_256x256.png" alt="Firefox Beta browser logo">
+                <a href="firefox-lite">
+                   <img width=150 src="firefox-lite/firefox-lite_256x256.png" alt="Firefox Lite browser logo">
                 </a>
             </td>
             <td>
@@ -425,34 +462,20 @@
     </tbody>
 </table>
 
-### Firefox Focus
-
-<table>
-    <thead>
-        <tr>
-            <th>
-                <a href="https://www.mozilla.org/en-US/firefox/focus/">Firefox<br>Focus</a>
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr height=170>
-            <td>
-                <a href="firefox-focus">
-                    <img width=150 src="firefox-focus/firefox-focus_256x256.png" alt="Firefox Focus browser logo">
-                </a>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-### Firefox Preview
+Firefox Preview
+---------------
 
 <table>
     <thead>
         <tr>
             <th>
                 <a href="https://play.google.com/store/apps/details?id=org.mozilla.fenix">Firefox<br>Preview</a>
+            </th>
+            <th>
+                <a href="https://play.google.com/store/apps/details?id=org.mozilla.fenix">Firefox<br>Preview<br>Beta</a>
+            </th>
+            <th>
+                <a href="https://play.google.com/store/apps/details?id=org.mozilla.fenix.nightly">Firefox<br>Preview<br>Nightly</a>
             </th>
         </tr>
     </thead>
@@ -463,11 +486,22 @@
                     <img width=150 src="firefox-preview/firefox-preview_256x256.png" alt="Firefox Preview browser logo">
                 </a>
             </td>
+            <td>
+                <a href="firefox-preview-beta">
+                    <img width=150 src="firefox-preview-beta/firefox-preview-beta_256x256.png" alt="Firefox Preview Beta browser logo">
+                </a>
+            </td>
+            <td>
+                <a href="firefox-preview-nightly">
+                    <img width=150 src="firefox-preview-nightly/firefox-preview-nightly_256x256.png" alt="Firefox Preview Nightly browser logo">
+                </a>
+            </td>
         </tr>
     </tbody>
 </table>
 
-### Firefox Reality
+Firefox Reality
+---------------
 
 <table>
     <thead>
@@ -488,7 +522,8 @@
     </tbody>
 </table>
 
-### GeckoView
+GeckoView
+---------
 
 <table>
     <thead>
@@ -509,7 +544,8 @@
     </tbody>
 </table>
 
-### Hermes
+Hermes
+------
 
 <table>
     <thead>
@@ -530,7 +566,8 @@
     </tbody>
 </table>
 
-### IceCat
+IceCat
+------
 
 <table>
     <thead>
@@ -551,7 +588,8 @@
     </tbody>
 </table>
 
-### jsdom
+jsdom
+-----
 
 <table>
     <thead>
@@ -572,13 +610,36 @@
     </tbody>
 </table>
 
-### Maxthon
+Konqueror
+---------
 
 <table>
     <thead>
         <tr>
             <th>
-                <a href="http://www.maxthon.com/">Maxthon</a>
+                <a href="https://kde.org/applications/internet/org.kde.konqueror">Konqueror</a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr height=170>
+            <td>
+                <a href="konqueror">
+                    <img width=150 src="konqueror/konqueror_256x256.png" alt="Konqueror browser logo">
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+Maxthon
+-------
+
+<table>
+    <thead>
+        <tr>
+            <th>
+                <a href="https://www.maxthon.com/">Maxthon</a>
             </th>
         </tr>
     </thead>
@@ -593,7 +654,8 @@
     </tbody>
 </table>
 
-### Midori
+Midori
+------
 
 <table>
     <thead>
@@ -614,13 +676,14 @@
     </tbody>
 </table>
 
-### NetSurf
+NetSurf
+-------
 
 <table>
     <thead>
         <tr>
             <th>
-                <a href="http://www.netsurf-browser.org/">NetSurf</a>
+                <a href="https://www.netsurf-browser.org/">NetSurf</a>
             </th>
         </tr>
     </thead>
@@ -635,7 +698,8 @@
     </tbody>
 </table>
 
-### NW.js
+NW.js
+-----
 
 <table>
     <thead>
@@ -656,7 +720,8 @@
     </tbody>
 </table>
 
-### Opera
+Opera
+-----
 
 <table>
     <thead>
@@ -693,7 +758,8 @@
     </tbody>
 </table>
 
-### Opera GX
+Opera GX
+--------
 
 <table>
     <thead>
@@ -714,7 +780,8 @@
     </tbody>
 </table>
 
-### Opera Mini
+Opera Mini
+----------
 
 <table>
     <thead>
@@ -743,7 +810,8 @@
     </tbody>
 </table>
 
-### Opera Neon
+Opera Neon
+----------
 
 <table>
     <thead>
@@ -764,7 +832,8 @@
     </tbody>
 </table>
 
-### Opera Touch
+Opera Touch
+-----------
 
 <table>
     <thead>
@@ -785,13 +854,14 @@
     </tbody>
 </table>
 
-### Otter
+Otter
+-----
 
 <table>
     <thead>
         <tr>
             <th>
-                <a href="http://otter-browser.org/">Otter</a>
+                <a href="https://otter-browser.org/">Otter</a>
             </th>
         </tr>
     </thead>
@@ -806,13 +876,14 @@
     </tbody>
 </table>
 
-### Pale Moon
+Pale Moon
+---------
 
 <table>
     <thead>
         <tr>
             <th>
-                <a href="http://www.palemoon.org/">Pale Moon</a>
+                <a href="https://www.palemoon.org/">Pale Moon</a>
             </th>
         </tr>
     </thead>
@@ -827,7 +898,8 @@
     </tbody>
 </table>
 
-### Puffin
+Puffin
+------
 
 <table>
     <thead>
@@ -848,7 +920,8 @@
     </tbody>
 </table>
 
-### Safari
+Safari
+------
 
 <table>
     <thead>
@@ -877,7 +950,8 @@
     </tbody>
 </table>
 
-### Safari (iOS)
+Safari (iOS)
+------------
 
 <table>
     <thead>
@@ -898,7 +972,8 @@
     </tbody>
 </table>
 
-### Samsung Internet
+Samsung Internet
+----------------
 
 <table>
     <thead>
@@ -935,13 +1010,14 @@
     </tbody>
 </table>
 
-### SeaMonkey
+SeaMonkey
+---------
 
 <table>
     <thead>
         <tr>
             <th>
-                <a href="http://www.seamonkey-project.org/">SeaMonkey</a>
+                <a href="https://www.seamonkey-project.org/">SeaMonkey</a>
             </th>
         </tr>
     </thead>
@@ -956,7 +1032,8 @@
     </tbody>
 </table>
 
-### Servo
+Servo
+-----
 
 <table>
     <thead>
@@ -977,7 +1054,8 @@
     </tbody>
 </table>
 
-### Silk
+Silk
+----
 
 <table>
     <thead>
@@ -998,7 +1076,8 @@
     </tbody>
 </table>
 
-### Sogou (Mobile)
+Sogou (Mobile)
+--------------
 
 <table>
     <thead>
@@ -1019,7 +1098,8 @@
     </tbody>
 </table>
 
-### Tor
+Tor
+---
 
 <table>
     <thead>
@@ -1056,13 +1136,14 @@
     </tbody>
 </table>
 
-### UC
+UC
+--
 
 <table>
     <thead>
         <tr>
             <th>
-                <a href="http://www.ucweb.com">UC</a>
+                <a href="https://www.ucweb.com">UC</a>
             </th>
         </tr>
     </thead>
@@ -1077,13 +1158,14 @@
     </tbody>
 </table>
 
-### UC Mini
+UC Mini
+-------
 
 <table>
     <thead>
         <tr>
             <th>
-                <a href="http://www.ucweb.com">UC<br>Mini</a>
+                <a href="https://www.ucweb.com">UC<br>Mini</a>
             </th>
         </tr>
     </thead>
@@ -1098,7 +1180,8 @@
     </tbody>
 </table>
 
-### V8
+V8
+--
 
 <table>
     <thead>
@@ -1119,7 +1202,8 @@
     </tbody>
 </table>
 
-### V8 Ignition
+V8 Ignition
+-----------
 
 <table>
     <thead>
@@ -1140,7 +1224,8 @@
     </tbody>
 </table>
 
-### V8 Liftoff
+V8 Liftoff
+----------
 
 <table>
     <thead>
@@ -1161,7 +1246,8 @@
     </tbody>
 </table>
 
-### V8 Orinoco
+V8 Orinoco
+----------
 
 <table>
     <thead>
@@ -1182,7 +1268,8 @@
     </tbody>
 </table>
 
-### V8 TurboFan
+V8 TurboFan
+-----------
 
 <table>
     <thead>
@@ -1203,7 +1290,8 @@
     </tbody>
 </table>
 
-### Vivaldi
+Vivaldi
+-------
 
 <table>
     <thead>
@@ -1232,13 +1320,17 @@
     </tbody>
 </table>
 
-### Web
+Web
+---
 
 <table>
     <thead>
         <tr>
             <th>
                 <a href="https://wiki.gnome.org/Apps/Web">Web <br>(f.k.a. Epiphany)</a>
+            </th>
+             <th>
+                <a href="https://wiki.gnome.org/Apps/Web/Development#Epiphany_Technology_Preview">Epiphany<br>Technology<br>Preview</a>
             </th>
         </tr>
     </thead>
@@ -1249,11 +1341,17 @@
                     <img width=150 src="web/web_256x256.png" alt="Web (f.k.a. Epiphany) browser logo">
                 </a>
             </td>
+            <td>
+                <a href="epiphany-technology-preview">
+                    <img width=150 src="epiphany-technology-preview/epiphany-technology-preview_256x256.png" alt="Epiphany Technology Preview browser logo">
+                </a>
+            </td>
         </tr>
     </tbody>
 </table>
 
-### WebKit
+WebKit
+------
 
 <table>
     <thead>
@@ -1274,7 +1372,8 @@
     </tbody>
 </table>
 
-### Yandex
+Yandex
+------
 
 <table>
     <thead>

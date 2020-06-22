@@ -1,26 +1,27 @@
-# Netscape v4-6
+Netscape v4-6
+=============
 
+<!-- markdownlint-disable line-length no-inline-html -->
 <table>
     <tr height=230>
         <td>
-            <a href="https://github.com/alrra/browser-logos/tree/e085d830045b35baae30cca256a813c083d65248/src/archive/netscape_4-6">
-                <img width=220 src="https://raw.githubusercontent.com/alrra/browser-logos/e085d830045b35baae30cca256a813c083d65248/src/archive/netscape_4-6/netscape_4-6.svg?sanitize=true" alt="Netscape v4-6 browser logo">
+            <a href="https://github.com/alrra/browser-logos/tree/80cbe469f2118f81922901342d89b0b6495c86b5/src/archive/netscape_4-6">
+                <img width=220 src="https://raw.githubusercontent.com/alrra/browser-logos/80cbe469f2118f81922901342d89b0b6495c86b5/src/archive/netscape_4-6/netscape_4-6.svg?sanitize=true" alt="Netscape v4-6 browser logo">
             </a>
         </td>
     </tr>
 </table>
+<!-- markdownlint-enable line-length no-inline-html -->
 
-## How do I get this logo?
+How to get the logo
+-------------------
 
-You can either:
+Get it using:
 
-* Install it using [`npm`][npm]:
-
-  `npm install --save-dev @browser-logos/netscape_4-6`
-
-* Use [`cdnjs`][cdnjs].
+* [`npm`][npm]: `npm install --save-dev @browser-logos/netscape_4-6`
+* [`Yarn`][yarn]: `yarn add --dev @browser-logos/netscape_4-6`
 
 <!-- Link labels: -->
 
-[cdnjs]: https://cdnjs.com/libraries/browser-logos
 [npm]: https://www.npmjs.com/
+[yarn]: https://yarnpkg.com/

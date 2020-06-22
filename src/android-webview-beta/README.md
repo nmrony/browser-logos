@@ -1,26 +1,27 @@
-# Android WebView Beta
+Android WebView Beta
+====================
 
+<!-- markdownlint-disable line-length no-inline-html -->
 <table>
     <tr height=230>
         <td>
-            <a href="https://github.com/alrra/browser-logos/tree/2595111f26d5d31b62422f10c656171fd7633e4f/src/android-webview-beta">
-                <img width=220 src="https://raw.githubusercontent.com/alrra/browser-logos/2595111f26d5d31b62422f10c656171fd7633e4f/src/android-webview-beta/android-webview-beta_512x512.png" alt="Android WebView Beta browser logo">
+            <a href="https://github.com/alrra/browser-logos/tree/b6e216fb3c7dd77161146277fb5652508d5a1505/src/android-webview-beta">
+                <img width=220 src="https://raw.githubusercontent.com/alrra/browser-logos/b6e216fb3c7dd77161146277fb5652508d5a1505/src/android-webview-beta/android-webview-beta_512x512.png" alt="Android WebView Beta browser logo">
             </a>
         </td>
     </tr>
 </table>
+<!-- markdownlint-enable line-length no-inline-html -->
 
-## How do I get this logo?
+How to get the logo
+-------------------
 
-You can either:
+Get it using:
 
-* Install it using [`npm`][npm]:
-
-  `npm install --save-dev @browser-logos/android-webview-beta`
-
-* Use [`cdnjs`][cdnjs].
+* [`npm`][npm]: `npm install --save-dev @browser-logos/android-webview-beta`
+* [`Yarn`][yarn]: `yarn add --dev @browser-logos/android-webview-beta`
 
 <!-- Link labels: -->
 
-[cdnjs]: https://cdnjs.com/libraries/browser-logos
 [npm]: https://www.npmjs.com/
+[yarn]: https://yarnpkg.com/
